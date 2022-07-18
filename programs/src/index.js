@@ -6,11 +6,11 @@ import reportWebVitals from './reportWebVitals'
 import 'bootstrap/dist/css/bootstrap.css'
 import Counter from './counter/counter'
 import Counters from './counter/counters'
-
+import APP from './counter/app'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <App />
+    <APP />
   </React.StrictMode>,
 )
 
